@@ -1,0 +1,441 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass ociamthesis
+\begin_preamble
+% To learn how to use specific packages, CTAN is your friend: http://www.ctan.org/
+
+% Most packages you will not need are commented out.  Just remove the % in front of the line if you want to use them.
+
+%\usepackage[polutonikogreek,english]{babel}  
+% for using  greek fonts add polutonikogreek
+
+%\usepackage[or]{teubner} 
+% for using ancient greek fonts
+
+
+\usepackage{longtable} 
+% Allows tables to span multiple pages (this package must be called before hyperref)
+
+%\usepackage{ragged2e} 
+% For allowing word-breaking when using RaggedRight (mainly in captions)
+
+%\usepackage[font=small,format=hang,justification=RaggedRight,labelfont=bf,textfont=it]{caption} 
+% Nicer captions
+
+\usepackage{setspace} 
+% Allows singlespacing of quotes
+
+\usepackage[pdftex]{graphicx} 
+% allows graphics in pdf format. Removed amssymb, which clashed with teubner in defining digamma
+
+\usepackage{multicol, multirow,array} 
+% Used to make multiple columns for the indices and for creating columns that span multiple rows in tables
+
+% \usepackage{rotating} 
+% To allow tables in landscape mode
+
+\usepackage{booktabs} 
+% For better looking tables
+
+%\usepackage{pdfpages} 
+% Allows multi-page pdfs to be inserted as graphics
+
+\usepackage{wrapfig} 
+% Allows floating figures and tables
+
+%\usepackage{enumerate} 
+% Allows different numbering styles for Lists
+% to use:
+% \begin{enumerate}[x] 
+% \item text 
+% \end{enumerate} 
+% where x is:
+% A	uppercase letters (as produced by \Alph)
+% a	lowercase letters (as produced by \alph)
+% I	uppercase roman numerals (as produced by \Roman)
+% i	lowercase roman numerals (as produced by \roman)
+% 1	arabic numbers (as produced by \arabic)
+
+
+%%% Bibliography and index stuff %%%
+
+
+%\usepackage{appendix} 
+% For helping format appendicies
+
+
+\usepackage[nottoc]{tocbibind} 
+% Used for inserting the Bibliography, List of Figures, indices, etc into the table of contents.
+
+% \usepackage[sort]{natbib} 
+% To format the bibliography
+% commented out since this is available in the Document -> Settings -> Bibliography pane
+
+%\citeindextrue 
+% This puts the authors into your index (not sure how it compares to authorindex below)
+
+%\usepackage[biblabels]{authorindex} 
+% This is used to make an index of authors from your bibliography. You need authorindex.sty in your styles folder of your latex installation
+%\let\cite=\aicite % this sets the cite command to the one needed for the authorindex package.
+
+%\usepackage{makeidx}
+% This line and the next are used to create an index at the end of the thesis.  To index words, use the command \index{}.  example: she said she \index{love}loved him.
+%		\makeindex
+
+\usepackage[colorlinks=true,citecolor=black,linkcolor=black,plainpages=false,pdfpagelabels]{hyperref} 
+% for linking between references, figures, TOC, etc in the pdf document
+
+\usepackage{minitoc} 
+% If you want to generate a toc for each chapter (use with book).  You are encouraged to read http://www.ctan.org/tex-archive/macros/latex/contrib/minitoc/minitoc.pdf to find out about how this package interferes with tocbibind
+\setcounter{minitocdepth}{3} 
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Press Ctrl+R to see what this document looks like when typeset.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+The three lines below are specific to the 
+\family typewriter
+ociamthesis.cls
+\family default
+ style file which this document uses.
+ They are not usually found in LyX or LaTeX documents.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+college{Jordan College}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+degree{Master of the Universe}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+degreedate{Michaelmas 1208}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+The Title of Your Thesis or Dissertation
+\end_layout
+
+\begin_layout Author
+A.
+ N.
+ Other
+\end_layout
+
+\begin_layout Dedication
+To those that need It
+\end_layout
+
+\begin_layout Dedication
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Note that the style of this paragraph is `Dedication'.
+ Also notice the back-tick/apostrophe idiom used to get appropriately gendered
+ quotes.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Acknowledgements
+This template is based on the original thesis class file at 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ox-thesis"
+
+\end_inset
+
+ with the LyX layout file supplied with 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ox-lyx-thesis"
+
+\end_inset
+
+ and the modifications for the humanities and social sciences available
+ in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ox-humanities-thesis"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Originality
+Include a statement of originality appropriate to your course here.
+\end_layout
+
+\begin_layout Abstract
+This document provides an example of using the Oxford University thesis
+ template as adapted for humanities and the social sciences.
+ It may also be used as a template from which new LyX documents may be created.
+\end_layout
+
+\begin_layout Chapter
+An Introduction
+\end_layout
+
+\begin_layout Standard
+An important feature to point out is the Document → Settings → LaTeX Preamble
+ setting.
+ This contains the preamble from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ox-humanities-thesis"
+
+\end_inset
+
+ which adapts the base 
+\family typewriter
+ociamthesis.cls
+\family default
+ to be more suited to the humanities and social sciences.
+ There are some packages mentioned in this which may be of interest and
+ which may be included by removing the 
+\family typewriter
+%
+\family default
+ character in front of the 
+\family typewriter
+
+\backslash
+usepackage{\SpecialChar \ldots{}
+}
+\family default
+ command.
+\end_layout
+
+\begin_layout Standard
+To create a new document based on this template, use File → New from Template\SpecialChar \ldots{}
+
+ and select this file, 
+\family typewriter
+oxiamthesis-example.lyx
+\family default
+, as the template.
+ There will be an error about not being able to locate a class file.
+ This may be ignored provided that your new file is saved in the same directory
+ as the 
+\family typewriter
+oxiamthesis-example.lyx
+\family default
+ template file.
+ The reason for this is that LyX looks in both a standard set of directories
+ and the directory of the current file when looking for layout files.
+ Until you save the file in the right directory, therefore, LyX wont be
+ able to find the layout.
+ If this sounds too complicated, just copy the 
+\family typewriter
+oxiamthesis-example.lyx
+\family default
+ template file to, for example, 
+\family typewriter
+thesis.lyx
+\family default
+ in the same directory and open it with LyX.
+ The effect is the same.
+\end_layout
+
+\begin_layout Standard
+To compile this file into a PDF and then open the PDF in a suitable viewing
+ program, press Ctrl+R.
+\end_layout
+
+\begin_layout Section*
+A note on bibliographies
+\end_layout
+
+\begin_layout Standard
+Note that this document uses a a bilbiography which is explicitly written
+ inline.
+ This only supports so-called `numerical'-style referencing.
+ To perform more complex referencing, such as author-year formatting, consult
+ the bibliography section in the LyX users' manual.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ox-thesis"
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.maths.ox.ac.uk/help/faqs/latex/thesisclass
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ox-lyx-thesis"
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/telegraphic/Oxford-LyX-Thesis-Template
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ox-humanities-thesis"
+
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://samuelevansresearch.org/main/2010/05/oxford-thesis-latex-template/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
