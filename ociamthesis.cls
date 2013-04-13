@@ -47,7 +47,7 @@
 
 %To use an EPS image instead obtain suitable crest.eps file and
 %uncomment next line
-\def\crest{{\includegraphics{crest.eps}}}
+\def\crest{{\includegraphics{crest}}}
 
 % New Oxford Belt crest
 
